@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.mycompany.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>ToolkitConfig</key>
+	<dict>
+		<key>CloudReadyACS</key>
+		<dict>
+			<key>ACSNamespace</key>
+			<string>{the namespace of the ACS service you are using}</string>
+			<key>ACSRealm</key>
+			<string>uri:wazmobiletoolkit</string>
+			<key>ProxyService</key>
+			<string>{the service name where the ACS Cloud Ready package is deployed}</string>
+		</dict>
+		<key>CloudReadySimple</key>
+		<dict>
+			<key>ProxyService</key>
+			<string>{the service name where the Membership Cloud Ready package is deployed}</string>
+		</dict>
+		<key>ConnectionType</key>
+		<string>Direct</string>
+		<key>Direct</key>
+		<dict>
+			<key>AccountName</key>
+			<string>{your_azure_account_name}</string>
+			<key>DirectAccessKey</key>
+			<string>{your_azure_access_key}</string>
+		</dict>
+	</dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

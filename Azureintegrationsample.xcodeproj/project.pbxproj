@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEEDD3441588584000C72FAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEDD3431588584000C72FAE /* UIKit.framework */; };
+		CEEDD3461588584000C72FAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEDD3451588584000C72FAE /* Foundation.framework */; };
+		CEEDD3481588584000C72FAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEDD3471588584000C72FAE /* CoreGraphics.framework */; };
+		CEEDD34E1588584000C72FAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEEDD34C1588584000C72FAE /* InfoPlist.strings */; };
+		CEEDD3501588584000C72FAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD34F1588584000C72FAE /* main.m */; };
+		CEEDD3541588584000C72FAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD3531588584000C72FAE /* AppDelegate.m */; };
+		CEEDD3571588584000C72FAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD3561588584000C72FAE /* ViewController.m */; };
+		CEEDD35A1588584000C72FAE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEDD3581588584000C72FAE /* ViewController.xib */; };
+		CEEDD3631588584000C72FAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEDD3431588584000C72FAE /* UIKit.framework */; };
+		CEEDD3641588584000C72FAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEDD3451588584000C72FAE /* Foundation.framework */; };
+		CEEDD36C1588584000C72FAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEEDD36A1588584000C72FAE /* InfoPlist.strings */; };
+		CEEDD36F1588584000C72FAE /* AzureintegrationsampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD36E1588584000C72FAE /* AzureintegrationsampleTests.m */; };
+		CEEDD3861588709300C72FAE /* WAConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD3851588709300C72FAE /* WAConfiguration.m */; };
+		CEEDD389158871C800C72FAE /* WAConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD3851588709300C72FAE /* WAConfiguration.m */; };
+		CEEDD38B1588732100C72FAE /* libwatoolkitios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEDD38A1588732100C72FAE /* libwatoolkitios.a */; };
+		CEEDD38D1588734000C72FAE /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEDD38C1588734000C72FAE /* libxml2.2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEEDD3651588584000C72FAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEEDD3361588583F00C72FAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEEDD33E1588584000C72FAE;
+			remoteInfo = Azureintegrationsample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEE889A9158AE93600FBDE99 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		CEE889AB158AE96B00FBDE99 /* WAToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAToolkit.h; sourceTree = "<group>"; };
+		CEE889AC158AEE1200FBDE99 /* WAResultContinuation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAResultContinuation.h; sourceTree = "<group>"; };
+		CEEDD33F1588584000C72FAE /* Azureintegrationsample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Azureintegrationsample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEDD3431588584000C72FAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEEDD3451588584000C72FAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEEDD3471588584000C72FAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEEDD34B1588584000C72FAE /* Azureintegrationsample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Azureintegrationsample-Info.plist"; sourceTree = "<group>"; };
+		CEEDD34D1588584000C72FAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEEDD34F1588584000C72FAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEEDD3511588584000C72FAE /* Azureintegrationsample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Azureintegrationsample-Prefix.pch"; sourceTree = "<group>"; };
+		CEEDD3521588584000C72FAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEEDD3531588584000C72FAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEEDD3551588584000C72FAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEEDD3561588584000C72FAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEEDD3591588584000C72FAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CEEDD3601588584000C72FAE /* AzureintegrationsampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzureintegrationsampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEDD3691588584000C72FAE /* AzureintegrationsampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AzureintegrationsampleTests-Info.plist"; sourceTree = "<group>"; };
+		CEEDD36B1588584000C72FAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEEDD36D1588584000C72FAE /* AzureintegrationsampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AzureintegrationsampleTests.h; sourceTree = "<group>"; };
+		CEEDD36E1588584000C72FAE /* AzureintegrationsampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AzureintegrationsampleTests.m; sourceTree = "<group>"; };
+		CEEDD3791588589400C72FAE /* WACloudStorageClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WACloudStorageClientDelegate.h; sourceTree = "<group>"; };
+		CEEDD37C15885A2800C72FAE /* WACloudStorageClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WACloudStorageClient.h; sourceTree = "<group>"; };
+		CEEDD37E15885CA600C72FAE /* WATableFetchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATableFetchRequest.h; sourceTree = "<group>"; };
+		CEEDD38315886F9100C72FAE /* WAAuthenticationCredential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAAuthenticationCredential.h; sourceTree = "<group>"; };
+		CEEDD3841588709300C72FAE /* WAConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAConfiguration.h; sourceTree = "<group>"; };
+		CEEDD3851588709300C72FAE /* WAConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAConfiguration.m; sourceTree = "<group>"; };
+		CEEDD3871588711700C72FAE /* WACloudAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WACloudAccessToken.h; sourceTree = "<group>"; };
+		CEEDD3881588717800C72FAE /* WACloudAccessControlClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WACloudAccessControlClient.h; sourceTree = "<group>"; };
+		CEEDD38A1588732100C72FAE /* libwatoolkitios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwatoolkitios.a; path = Azureintegrationsample/libwatoolkitios.a; sourceTree = "<group>"; };
+		CEEDD38C1588734000C72FAE /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		CEEDD38E15888C9A00C72FAE /* WATableEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATableEntity.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEEDD33C1588584000C72FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDD38D1588734000C72FAE /* libxml2.2.dylib in Frameworks */,
+				CEEDD3441588584000C72FAE /* UIKit.framework in Frameworks */,
+				CEEDD3461588584000C72FAE /* Foundation.framework in Frameworks */,
+				CEEDD3481588584000C72FAE /* CoreGraphics.framework in Frameworks */,
+				CEEDD38B1588732100C72FAE /* libwatoolkitios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEDD35C1588584000C72FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDD3631588584000C72FAE /* UIKit.framework in Frameworks */,
+				CEEDD3641588584000C72FAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEEDD3341588583F00C72FAE = {
+			isa = PBXGroup;
+			children = (
+				CEEDD3781588588100C72FAE /* WA Headers */,
+				CEEDD3491588584000C72FAE /* Azureintegrationsample */,
+				CEEDD3671588584000C72FAE /* AzureintegrationsampleTests */,
+				CEEDD3421588584000C72FAE /* Frameworks */,
+				CEEDD3401588584000C72FAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEEDD3401588584000C72FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDD33F1588584000C72FAE /* Azureintegrationsample.app */,
+				CEEDD3601588584000C72FAE /* AzureintegrationsampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEEDD3421588584000C72FAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDD38C1588734000C72FAE /* libxml2.2.dylib */,
+				CEEDD38A1588732100C72FAE /* libwatoolkitios.a */,
+				CEEDD3431588584000C72FAE /* UIKit.framework */,
+				CEEDD3451588584000C72FAE /* Foundation.framework */,
+				CEEDD3471588584000C72FAE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEEDD3491588584000C72FAE /* Azureintegrationsample */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDD3521588584000C72FAE /* AppDelegate.h */,
+				CEEDD3531588584000C72FAE /* AppDelegate.m */,
+				CEEDD3551588584000C72FAE /* ViewController.h */,
+				CEEDD3561588584000C72FAE /* ViewController.m */,
+				CEEDD3581588584000C72FAE /* ViewController.xib */,
+				CEEDD34A1588584000C72FAE /* Supporting Files */,
+			);
+			path = Azureintegrationsample;
+			sourceTree = "<group>";
+		};
+		CEEDD34A1588584000C72FAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDD34B1588584000C72FAE /* Azureintegrationsample-Info.plist */,
+				CEEDD34C1588584000C72FAE /* InfoPlist.strings */,
+				CEEDD34F1588584000C72FAE /* main.m */,
+				CEEDD3511588584000C72FAE /* Azureintegrationsample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEEDD3671588584000C72FAE /* AzureintegrationsampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDD36D1588584000C72FAE /* AzureintegrationsampleTests.h */,
+				CEEDD36E1588584000C72FAE /* AzureintegrationsampleTests.m */,
+				CEEDD3681588584000C72FAE /* Supporting Files */,
+			);
+			path = AzureintegrationsampleTests;
+			sourceTree = "<group>";
+		};
+		CEEDD3681588584000C72FAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDD3691588584000C72FAE /* AzureintegrationsampleTests-Info.plist */,
+				CEEDD36A1588584000C72FAE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEEDD3781588588100C72FAE /* WA Headers */ = {
+			isa = PBXGroup;
+			children = (
+				CEE889AC158AEE1200FBDE99 /* WAResultContinuation.h */,
+				CEE889AB158AE96B00FBDE99 /* WAToolkit.h */,
+				CEE889A9158AE93600FBDE99 /* Macros.h */,
+				CEEDD38315886F9100C72FAE /* WAAuthenticationCredential.h */,
+				CEEDD3791588589400C72FAE /* WACloudStorageClientDelegate.h */,
+				CEEDD37C15885A2800C72FAE /* WACloudStorageClient.h */,
+				CEEDD37E15885CA600C72FAE /* WATableFetchRequest.h */,
+				CEEDD3841588709300C72FAE /* WAConfiguration.h */,
+				CEEDD3871588711700C72FAE /* WACloudAccessToken.h */,
+				CEEDD3881588717800C72FAE /* WACloudAccessControlClient.h */,
+				CEEDD38E15888C9A00C72FAE /* WATableEntity.h */,
+				CEEDD3851588709300C72FAE /* WAConfiguration.m */,
+			);
+			name = "WA Headers";
+			path = Azureintegrationsample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEEDD33E1588584000C72FAE /* Azureintegrationsample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEDD3721588584000C72FAE /* Build configuration list for PBXNativeTarget "Azureintegrationsample" */;
+			buildPhases = (
+				CEEDD33B1588584000C72FAE /* Sources */,
+				CEEDD33C1588584000C72FAE /* Frameworks */,
+				CEEDD33D1588584000C72FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Azureintegrationsample;
+			productName = Azureintegrationsample;
+			productReference = CEEDD33F1588584000C72FAE /* Azureintegrationsample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEEDD35F1588584000C72FAE /* AzureintegrationsampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEDD3751588584000C72FAE /* Build configuration list for PBXNativeTarget "AzureintegrationsampleTests" */;
+			buildPhases = (
+				CEEDD35B1588584000C72FAE /* Sources */,
+				CEEDD35C1588584000C72FAE /* Frameworks */,
+				CEEDD35D1588584000C72FAE /* Resources */,
+				CEEDD35E1588584000C72FAE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEEDD3661588584000C72FAE /* PBXTargetDependency */,
+			);
+			name = AzureintegrationsampleTests;
+			productName = AzureintegrationsampleTests;
+			productReference = CEEDD3601588584000C72FAE /* AzureintegrationsampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEEDD3361588583F00C72FAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CEEDD3391588583F00C72FAE /* Build configuration list for PBXProject "Azureintegrationsample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEEDD3341588583F00C72FAE;
+			productRefGroup = CEEDD3401588584000C72FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEEDD33E1588584000C72FAE /* Azureintegrationsample */,
+				CEEDD35F1588584000C72FAE /* AzureintegrationsampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEEDD33D1588584000C72FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDD34E1588584000C72FAE /* InfoPlist.strings in Resources */,
+				CEEDD35A1588584000C72FAE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEDD35D1588584000C72FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDD36C1588584000C72FAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEEDD35E1588584000C72FAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEEDD33B1588584000C72FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDD389158871C800C72FAE /* WAConfiguration.m in Sources */,
+				CEEDD3501588584000C72FAE /* main.m in Sources */,
+				CEEDD3541588584000C72FAE /* AppDelegate.m in Sources */,
+				CEEDD3571588584000C72FAE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEDD35B1588584000C72FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDD36F1588584000C72FAE /* AzureintegrationsampleTests.m in Sources */,
+				CEEDD3861588709300C72FAE /* WAConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEEDD3661588584000C72FAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEEDD33E1588584000C72FAE /* Azureintegrationsample */;
+			targetProxy = CEEDD3651588584000C72FAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEEDD34C1588584000C72FAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEDD34D1588584000C72FAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEEDD3581588584000C72FAE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEDD3591588584000C72FAE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		CEEDD36A1588584000C72FAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEEDD36B1588584000C72FAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEEDD3701588584000C72FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEEDD3711588584000C72FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEEDD3731588584000C72FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Azureintegrationsample/Azureintegrationsample-Prefix.pch";
+				INFOPLIST_FILE = "Azureintegrationsample/Azureintegrationsample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Azureintegrationsample\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+					"-ObjC",
+					"-all_load",
+				);
+				OTHER_TEST_FLAGS = "-framework Foundation -framework UIKit -ObjC -all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SECTORDER_FLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+					"-ObjC",
+					"-all_load",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEEDD3741588584000C72FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Azureintegrationsample/Azureintegrationsample-Prefix.pch";
+				INFOPLIST_FILE = "Azureintegrationsample/Azureintegrationsample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Azureintegrationsample\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+					"-ObjC",
+					"-all_load",
+				);
+				OTHER_TEST_FLAGS = "-framework Foundation -framework UIKit -ObjC -all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SECTORDER_FLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+					"-ObjC",
+					"-all_load",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEEDD3761588584000C72FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Azureintegrationsample.app/Azureintegrationsample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Azureintegrationsample/Azureintegrationsample-Prefix.pch";
+				INFOPLIST_FILE = "AzureintegrationsampleTests/AzureintegrationsampleTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEEDD3771588584000C72FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Azureintegrationsample.app/Azureintegrationsample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Azureintegrationsample/Azureintegrationsample-Prefix.pch";
+				INFOPLIST_FILE = "AzureintegrationsampleTests/AzureintegrationsampleTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEEDD3391588583F00C72FAE /* Build configuration list for PBXProject "Azureintegrationsample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEDD3701588584000C72FAE /* Debug */,
+				CEEDD3711588584000C72FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEDD3721588584000C72FAE /* Build configuration list for PBXNativeTarget "Azureintegrationsample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEDD3731588584000C72FAE /* Debug */,
+				CEEDD3741588584000C72FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEDD3751588584000C72FAE /* Build configuration list for PBXNativeTarget "AzureintegrationsampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEDD3761588584000C72FAE /* Debug */,
+				CEEDD3771588584000C72FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEEDD3361588583F00C72FAE /* Project object */;
+}

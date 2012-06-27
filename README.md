@@ -14,4 +14,4 @@ I have attached a project in here that you can download and run for yourself.
 Change the "account name" and "direct access key" in plist to get content from your table.
 You may need to specify your table name in "viewController.m".
 
-Try it by yourself and if you hit a wall, contact me back. May be I can help you.
+Try it by yourself and if you hit a wall, contact me back. May be I can help you...
