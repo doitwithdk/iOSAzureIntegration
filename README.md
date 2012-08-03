@@ -15,3 +15,6 @@ Change the "account name" and "direct access key" in plist to get content from y
 You may need to specify your table name in "viewController.m".
 
 Try it by yourself and if you hit a wall, contact me back. May be I can help you...
+
+
+********* Thanks Chris, you helped me a lot ***********
